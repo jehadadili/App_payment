@@ -4,7 +4,6 @@ import 'package:card/features/core/util/styles.dart';
 import 'package:card/features/my_catr/view/widgets/payment_methods_bootom_sheet.dart';
 import 'package:flutter/material.dart';
 
-
 class MyCartView extends StatelessWidget {
   const MyCartView({super.key});
 

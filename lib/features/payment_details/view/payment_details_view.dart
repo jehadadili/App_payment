@@ -19,8 +19,9 @@ class _PaymentDetailsViewState extends State<PaymentDetailsView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: buildAppBar(title: "Payment Details",),
-      
+      appBar: buildAppBar(
+        title: "Payment Details",
+      ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: CustomScrollView(
@@ -34,7 +35,6 @@ class _PaymentDetailsViewState extends State<PaymentDetailsView> {
                 autovalidateMode: autovalidateMode,
               ),
             ),
-     
             SliverFillRemaining(
               hasScrollBody: false,
               child: Align(
